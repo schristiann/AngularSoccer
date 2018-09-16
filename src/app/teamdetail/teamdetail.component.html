@@ -1,0 +1,33 @@
+<div class="team">
+<div *ngIf="team">
+  <div [ngStyle]="{background: getBackground(team)}">
+
+<h2>{{team.teamName}} Details</h2>
+  <div>
+    <label>Player name:
+      <input #playerName />
+    </label>
+
+    <button (click)="addPlayer(playerName.value); playerName.value=''">
+      add
+    </button>
+
+  </div>
+  <h2>Players</h2>
+  <table class="teams">
+    <tr class="headers">
+      <th>Name</th><th>Position</th><th>Number</th><th> </th>
+    </tr>
+    <tr *ngFor="let player of team.players">
+
+      <th><a routerLink="/teams/{{team._id}}/{{player._id}}">{{player.playerName}}</a></th>
+      <th>{{player.position}}</th>
+      <th>{{player.playerID}}</th>
+     <th> <button class="delete" title="delete hero"
+      (click)="delete(player)"><i class="fa fa-trash" style="font-size:15px;color:red;"></i></button>
+     </th>
+    </tr>
+  </table>
+  </div>
+</div>
+</div>

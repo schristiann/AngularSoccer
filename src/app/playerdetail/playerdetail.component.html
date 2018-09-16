@@ -1,0 +1,18 @@
+<div *ngIf="player">
+<h2>Edit {{player.playerName}} Details</h2>
+<div><span>id: </span>{{player.playerID}}</div>
+<div>
+  <div>
+  <label>name:
+    <input [(ngModel)]="player.playerName" placeholder="name">
+  </label>
+  </div>
+  <div>
+    <label>position:
+      <input [(ngModel)]="player.position" placeholder="position">
+    </label>
+  </div>
+  <button (click)="save()">save</button>
+  <button (click)="goBack()">go back</button>
+</div>
+</div>

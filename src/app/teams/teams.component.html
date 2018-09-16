@@ -1,0 +1,9 @@
+<div style="align-items: center">
+<ul class="teams">
+  <li *ngFor="let team of teams">
+    <a routerLink="/teams/{{team._id}}">
+      <span class="badge">{{team.teamID}}</span> {{team.teamName}}
+    </a>
+  </li>
+</ul>
+</div>
