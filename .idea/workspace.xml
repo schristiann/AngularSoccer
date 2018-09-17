@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="220fe16c-b28e-45da-911b-6c8c7f70dd23" name="Default" comment="correctly routes to server" />
+    <list default="true" id="220fe16c-b28e-45da-911b-6c8c7f70dd23" name="Default" comment="correctly routes to server">
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -163,7 +165,7 @@
       <workItem from="1537123592672" duration="841000" />
       <workItem from="1537135858862" duration="1000" />
       <workItem from="1537135874695" duration="1120000" />
-      <workItem from="1537137569277" duration="4391000" />
+      <workItem from="1537137569277" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="Angular side of soccer app">
       <created>1537123737623</created>
@@ -190,10 +192,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6353000" />
+    <option name="totallyTimeSpent" value="6691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="265" y="68" width="1400" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -312,7 +315,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
